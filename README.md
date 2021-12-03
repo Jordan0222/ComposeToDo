@@ -1,4 +1,4 @@
 # ComposeToDo
-這個 Side Project 是使用 MVVM 這個架構去寫的，首先透過 Retrofit 的方法去將 JSONPlaceHolder 的資料給抓下來，抓下來之後將他存在手機的 Database 裡面。
-存完之後再透過 Repository 這一層將資料從 Database 裡面取出來，最後再透過 ViewModel 的部分將資料傳到 UI 介面上，這邊還使用了 Dagger Hilt 去做依賴注入，最後 UI 的部分則是使用 JetpackCompose 實作。
+This project is written using the MVVM architecture. First, use Retrofit to capture the JSONPlaceHolder's data, and the store it in the phone's Database. After the storage is over, you can get the data from the Database through the Repository Layer, and then send the data to UI Layer through the ViewModel Layler. Besides, I also used Dagger-Hilt to do dependecy injection in my project. Finally, my UI is programed by Jetpack Compose.
+
 <img src="https://github.com/Jordan0222/ComposeToDo/blob/master/app/src/main/res/drawable-v24/todo.png" width="500">
